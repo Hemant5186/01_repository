@@ -1,0 +1,14 @@
+antecedents,consequents,support,confidence
+frozenset({'Beer'}),frozenset({'Rice'}),0.5,0.6666666666666666
+frozenset({'Rice'}),frozenset({'Beer'}),0.5,1.0
+frozenset({'Apple'}),frozenset({'Beer'}),0.375,0.75
+"frozenset({'Beer', 'Apple'})",frozenset({'Rice'}),0.25,0.6666666666666666
+"frozenset({'Apple', 'Rice'})",frozenset({'Beer'}),0.25,1.0
+frozenset({'Chicken'}),frozenset({'Rice'}),0.25,1.0
+frozenset({'Chicken'}),frozenset({'Beer'}),0.25,1.0
+"frozenset({'Beer', 'Chicken'})",frozenset({'Rice'}),0.25,1.0
+"frozenset({'Chicken', 'Rice'})",frozenset({'Beer'}),0.25,1.0
+frozenset({'Chicken'}),"frozenset({'Beer', 'Rice'})",0.25,1.0
+frozenset({'Milk'}),frozenset({'Beer'}),0.375,0.75
+"frozenset({'Beer', 'Milk'})",frozenset({'Rice'}),0.25,0.6666666666666666
+"frozenset({'Milk', 'Rice'})",frozenset({'Beer'}),0.25,1.0
